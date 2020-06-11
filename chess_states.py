@@ -16,8 +16,8 @@ def choice(n,m): #choice of n elements from m
         for i in range(m-n+1,m+1):
             ch*=i
 
-        ch = ch/factorial(n)
-    return int(ch)
+        ch = ch/&factorial(n)
+    return ch
 
 def two_kings(dim): #dim = dimensions of the board, as tuple, with dim[0] being on the playing direction
     """
